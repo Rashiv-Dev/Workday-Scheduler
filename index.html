@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">Schedule Your Workday</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+
+    <main class="container">
+
+        <!-- Timeblock 9am  -->
+        <div id= "9" class="row time-block">
+            <div class="hour col-1 pt-4 planner">09:00am</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 10am  -->
+        <div id = "10" class="row time-block">
+            <div class="hour col-1 pt-4 planner">10:00am</div>
+            <textarea class="col-10  border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 11am  -->
+        <div id="11" class="row time-block">
+            <div class="hour col-1 pt-4 planner">11:00am</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 12pm  -->
+        <div id="12" class="row time-block">
+            <div class="hour col-1 pt-4 planner">12:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 1pm  -->
+        <div id="13" class="row time-block">
+            <div class="hour col-1 pt-4 planner">01:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 2pm  -->
+        <div id="14" class="row time-block">
+            <div class="hour col-1 pt-4 planner">02:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 3pm  -->
+        <div id="15" class="row time-block">
+            <div class="hour col-1 pt-4 planner">03:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 4pm  -->
+        <div id="16" class="row time-block">
+            <div class="hour col-1 pt-4 planner">04:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+        <!-- Timeblock 5pm  -->
+        <div id="17" class="row time-block">
+            <div class="hour col-1 pt-4 planner">05:00pm</div>
+            <textarea class="col-10 border border-primary planText"></textarea>
+            <button class="saveBtn col-1"><i><span class="oi oi-book"></span></i></button>
+        </div>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--touch punch-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui-touch-punch@0.2.3/jquery.ui.touch-punch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <!--bootstrap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+</html>
